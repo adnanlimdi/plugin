@@ -14,7 +14,6 @@ $join_us_link           = get_field('join_us_link','option');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- Title -->
 
