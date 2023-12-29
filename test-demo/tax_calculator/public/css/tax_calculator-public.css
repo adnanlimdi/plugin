@@ -1,0 +1,124 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/*
+ .thecalc a.submit {z-index:2;padding: 15px 20px 15px 20px !important;display: inline-block;transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out;border-radius: 0px 5px 5px 0px;outline: none;white-space: nowrap;-webkit-text-stroke: 0px;cursor: pointer;-webkit-font-smoothing: antialiased}
+.thecalc a.submit i {font-size: 20px;}.thecalc .housetypes { padding: 0 !important; margin: 35px 0;justify-content: space-around; list-style: none !important; display: flex;}
+.thecalc .ffw {flex-flow: wrap row;}
+.thecalc .housetypes li {border-radius:5px; cursor:pointer;color: #C3D0D9;  width: 80px; height: 80px; text-align: center; }
+.thecalc .housetypes li label {height: 100%;cursor:pointer; display: flex; align-items: flex-end; justify-content: center;  font-size: 12px;transition: all 0.2s ease;  border: 1px solid #cad3e6; border-radius: 6px;}
+.thecalc .housetypes input:checked + label {background: #012169; color:#fff; border-radius: 5px;border: 0;  transform: translateY(-7px);}
+.thecalc .housetypes input {display: none;}
+.thecalc .housetypes li label:hover {border-color:#012169;}
+
+
+/*select2 styling*//*
+.select2-container .select2-selection--single {height: 55px;margin: 0; text-align: left;padding: 5px;border: 2px solid #009fe3;  margin-right: -11px; z-index: 1;}
+.select2-container--default .select2-selection--single .select2-selection__rendered {line-height: 41px;}
+.select2-container--default .select2-selection--single .select2-selection__arrow {top: 22%;right: 13px;}
+.select2-container--default b.left { float: right;  margin-right: 15px;}
+.select2-results__option {font-size: 14px;}
+.select2-container--default .select2-results__option--highlighted[aria-selected] { background-color: #012169;}
+
+/*Home or rent?*//*
+.thecalc .homerent { padding: 0 !important; margin: 0;margin-top:30px; justify-content: space-around; list-style: none !important; display: flex;}
+.thecalc .homerent li label { cursor:pointer;display: flex; align-items: center; justify-content: center;  font-size:16px; font-weight:bold; color:#012169; }
+.thecalc .homerent li input { cursor:pointer;margin-right:10px; }
+.thecalc .homerent input:checked {background: #012169;}.user_selections {margin:30px 0; display:flex;    align-items: center; text-align:left;  color:#012169;}
+.user_selections img {width:70px; margin-right:20px;}
+.user_selections p {margin:0; font-size:16px !important;}.user_message .h3, .user_message .h4, .user_message .h5 {margin:2px 0 !important;}
+.user_message i { font-weight:100 !important; color: #808080;font-size: 18px !important;  vertical-align: super;}
+.user_message .tooltipicon span { font-weight:100 !important; font-size:18px !important;}
+.user_message a.btn-lg {margin-top:20px;}
+.user_message span.divider {display:block;margin:5px 0;opacity:0.5; font-size:14px;height:auto; padding:0;}
+.user_message em {opacity:0.5;}.fa-spin {display: inline-block;}
+.btn.disabled  {pointer-events: none;  color: #fff;  background-color: #6c757d;  border-color: #6c757d; opacity: .65;}
+.user_selections .b_start {font-size: 12px; align-self: flex-end;flex: 1 0;   margin-left: 10px;   color: black;  text-align: right;}
+
+/* Range Slider Css */
+.rangeslider--horizontal {height: 20px;width: 100%;margin-bottom: 10px;margin-top: 10px;}
+span.error-msg {color: red;float: left;margin-left:45px;font-size:16px;}
+span.address-text {text-transform: capitalize;}
+span.error-msg-show {color: red;font-size: 20px;}
+
+.housetypes li label{padding-top:10px;}
+.housetypes li label figure{width:50px; height:30px; display:inline-block; margin:0 auto;}
+.housetypes li label figure img{width:100%; height:100%;}	
+.thecalc .txt-images-svg  .housetypes li label{display:block !important;}
+.housetypes .white-ic{filter: brightness(0) invert(1); display:none;}
+.housetypes .red-ic{display:block;}
+
+.housetypes  span{display:block; margin-top:2px; line-height:12px; color:#012169;font-weight: 600;}
+.thecalc .housetypes input:checked + label{transform:translateY(0px) !important;}
+.thecalc .housetypes input:checked + label  .red-ic{display:block; filter: brightness(0) invert(1);}
+.thecalc .housetypes input:checked + label span{color:#fff;}
+
+/*ADD CSS ON 15/05/2020*/
+/* .search-input-text a.submit{background: #31265d !important;border-radius: 5px 0px 0px 5px !important;position: relative;left: 12px;} */
+.search-input-text a.submit {border-radius: 5px 0px 0px 5px !important;position: relative;left: 12px;font-size: 16px;}
+.search-input-text {position: relative;left: -48px;}  
+.no-match-found {font-size: 19px;font-weight: bold;padding-bottom: 10px;float: left;width: 100%;}
+/** Tool Tip Informations **/
+.tooltipinfo {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltipinfo .tooltiptext {
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  font-size: 13px;
+  width: 270px;
+	right:0;    cursor: help;
+}
+
+.tooltipinfo:hover .tooltiptext {
+  visibility: visible;
+}
+a.right-icon-side {align-self: flex-end;flex: 1 0;margin-right: 80px;text-align: right;}
+label.title-input {float: unset;position: relative;margin-right: 330px;font-weight: 600;font-size: 20px;}
+.search-input-text span.error-msg {color: red;float: left;font-size: 16px;width: 100%;text-align: left;margin-right: 57px;padding-left: 60px;}
+.home label.title-input {float: right;position: relative;font-weight: 600;font-size: 20px;width: 100%;padding-right: 40px;}
+
+/* css add  6/10/2020 */
+.thecalc input.door-no {
+    font-weight: 600;
+    font-size: 18px;
+    color: #012268;
+    margin-top: 0;
+    border-radius: 6px;
+    width: 15%;
+    display: inline;
+    height: 55px;
+    margin-right: 10px;
+    border-color: #012169;
+    border-width: 2px;
+    vertical-align: middle;
+}
+
+.thecalc input.postcode {
+    font-weight: 600;
+    font-size: 18px;
+    color: #012268;
+    margin-top: 0;
+    border-radius: 6px;
+    width: 70%;
+    display: inline;
+    height: 55px;
+    margin-right: -15px;
+    padding-right: 15px;
+    border-color: #012169;
+    border-width: 2px;
+    vertical-align: middle;
+}
+
+input.door-no.require {border-color: red!important;}
+input.postcode.require {border-color: red!important;}

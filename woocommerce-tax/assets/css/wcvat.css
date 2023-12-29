@@ -1,0 +1,68 @@
+#wcvat-toggle {
+	padding: 10px;
+	position: fixed;
+	top: 45%;
+	z-index: 100;
+	color: #fff;
+	background-color: #444;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1;
+	text-align: right;
+	width: auto;
+	left: 0;
+	font-size: 1.25rem;
+	font-weight: 700;
+	font-family: inherit;
+}
+
+#wcvat-toggle:before {
+	content: "";
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=");
+	margin-right: 0.2em;
+	padding-left: 0.1em;
+	background-size: 0.1em 0.1em;
+	background-position: center center;
+	background-repeat: no-repeat;
+	transition: all 0.15s ease-in;
+}
+
+#wcvat-toggle.on {
+	background: rgba(255, 0, 0, 0.75);
+}
+
+#wcvat-toggle.on:hover {
+	background: rgba(255, 0, 0, 0.95);
+}
+
+#wcvat-toggle.on:before {
+	background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='check' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' class='svg-inline--fa fa-check fa-w-16 fa-2x'%3E%3Cpath fill='%23FFF' d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'%3E%3C/path%3E%3C/svg%3E");
+	padding-left: 1em;
+	background-size: 1em 1em;
+	transition: all 0.25s ease-out;
+}
+
+#wcvat-toggle span {
+	padding-left: 5px;
+}
+
+.cart_totals .total,
+.cart_totals .tax-rate,
+.cart_totals .order-total,
+.cart_totals .tax-total {
+	display: none;
+}
+
+/* Settings just for the widget */
+#wcvat-toggle.wcvat-toggle-widget {
+	position: relative;
+	opacity: 1;
+	top: initial;
+	z-index: initial;
+	width: 100%;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none;
+}

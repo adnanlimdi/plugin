@@ -1,0 +1,4 @@
+/* Hiding included tax price to simplify prices in Editor */
+.product-tax-on {
+	display: none;
+}

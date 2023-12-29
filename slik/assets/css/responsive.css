@@ -1,0 +1,445 @@
+/* Min Width Media Queries */
+@media(min-width:1660px)
+{
+    .about-img-section .fluid-content-outer{max-width: 50%;}
+    .catching{padding-top: 20% !important;}
+}
+@media(max-width:1599px)
+{
+    .account-swiper .swiper-slide h6{font-size: 24px;}
+    .account-swiper .swiper-slide{    padding: 60px 40px 50px;}
+    .account-swiper .swiper-slide p{font-size: 16px;}
+
+    /* 13-8-21 */
+    .account .current-subscription .current-subscription-right .add-more-box ul li a span.add img {margin-right: 6px;}
+    .account .current-subscription .current-subscription-right .add-more-box ul li a{font-size: 14px;}
+}
+@media(min-width:1750px)
+{
+    .about-img-section .fluid-content-outer{max-width: 60%;}
+}
+@media(min-width:1441px)
+{
+    .about-row .about-img-section{margin-top: 13%;margin-bottom: 13%}
+    .catching{padding-top: 15%;}
+    .hero .hero-right{min-height: 590px;}
+    
+}
+@media(max-width:1440px)
+{
+    /* 13-8-21 */
+    .account .current-subscription{margin-top: 80px;}
+    .account .current-subscription h5{font-size: 22px;}
+    .account .current-subscription .current-subscription-left table th, .account .current-subscription .current-subscription-left table td{font-size: 15px;}
+    .account .current-subscription .current-subscription-right .add-more-box ul li a{padding-left: 9px;padding-right: 9px;}
+    .account .current-subscription .current-subscription-right .add-more-box ul li a span.add img{width: 15px;}
+    .account .current-subscription .current-subscription-right .add-more-box ul li a {font-size: 13px;}
+    .account .current-subscription .current-subscription-right .add-more-box{padding: 20px;}
+    .account .current-subscription .current-subscription-right .add-more-box p{font-size: 14px;}
+    .service-section{padding: 150px 0 40px;}
+    .service-main {margin: 70px 0 0;}
+    .how-work{padding: 45px 0 100px;}
+    .catching{padding-top: 75px;}
+}
+
+@media screen and (min-width: 1366px) {
+    .container{max-width: 1210px;}
+    .service-main .service-block .service-block-inner{padding-left: 37px;padding-right: 37px;}
+}
+
+/* Max Width Media Queries */
+@media(max-width:1365px)
+{
+    .account .sidebar-title{padding-left: 60px;}
+    .account .nav-pills .nav-link{padding-left: 60px;}
+    .account .account-right{padding-left: 70px;padding-right: 70px;}
+    .service-section {padding: 150px 0 50px;}
+    .catching {padding-top: 50px;}
+}
+
+@media(min-width:1200px)
+{
+    .navbar-expand-lg .navbar-nav {margin-right: 100px !important;}
+}
+@media(max-width:1199px)
+{
+    .navbar-light .navbar-nav .nav-item {margin: 0 20px;}
+    .banner-img-block .circle1 img {max-width: 80%;}
+    .banner-img-block img{max-width: 100%;}
+    .banner-img-block .circle2 img{    max-width: 70%;}
+    .banner-img-block .circle2{text-align: right;}
+    .banner-img-block .banner-img-block-inner .hero-img2{max-width: 50%;}
+    .banner-img-block .banner-img-block-inner .hero-img3{max-width: 50%;}
+    .banner-img-block .banner-img-block-inner:after{    height: 40px;width: 40px;    left: -30px;}
+    .service-section{padding-top: 100px;}
+    h1{font-size: 40px;}
+    .inner-page h1{font-size: 42px;}
+    h2{font-size: 32px;}
+    h3{font-size: 34px;}
+    .contact h3{font-size: 26px;}
+    p.title-info{font-size: 15px;}
+    .service-main{margin-top: 50px;margin-left: -15px; margin-right: -15px;}
+    .service-main .service-block{padding: 0 15px;}
+    .service p{font-size: 15px;}
+    .service h4 {margin-bottom: 30px;}
+    .fluid-content-outer {max-width: 45%;}
+    .how-work {padding: 70px 0 0;}
+    .catching{padding: 100px 0;}
+    .catching .catching-row{margin: 45px -15px 0;}
+    .catching-block-outer{padding: 0 15px;}
+    .catching .catching-row .catching-block{padding: 40px;}
+    .plan p{font-size: 21px;}
+    .plan .plan-left {padding: 100px 0 100px 15px;}
+    footer{padding-top: 100px;}
+    .about{padding-top: 100px;}
+    .about-row .about-img-section {margin-top: 60px;}
+    .about-img-section .fluid-content-outer{max-width: 50%;}
+    .about-img-section h3{font-size: 34px;margin: 20px 0;}
+    .faq {padding: 150px 0 110px;}
+    .faq .faq-inner .faq-content {margin-top: 80px;}
+    .faq .faq-inner .faq-content h5{font-size: 22px;}
+    .faq .card h6 button,
+    .faq .card .card-body{font-size: 18px;}
+    .faq p{font-size: 19px;}
+    .contact{padding: 100px 0 130px;}
+    .contact .contact-main{margin-top: 80px;}
+    .account .sidebar-title {padding-left: 40px;}
+    .account .nav-pills .nav-link{padding:20px 20px 20px 40px;}
+    .account .account-sidebar{padding:50px 0;}
+    .account .account-right{    padding: 50px 50px 70px 50px;}
+    .account .account-right p{font-size: 15px;}
+    .account-swiper {margin-top: 60px;margin-bottom: 80px;}
+    .account-swiper .swiper-slide h6 {font-size: 20px;margin-bottom: 20px;}
+    .account-swiper .swiper-slide p{font-size: 16px;}
+    .account-swiper .swiper-slide {padding: 50px 30px 40px;}
+    .account-swiper .swiper-slide span {margin-bottom: 35px;}
+    .account-swiper .swiper-slide span {width: 50px;height: 50px;line-height: 50px;}
+    .account-overview table th, .account-overview table td{font-size: 17px;}
+    .account-overview table{margin-top: 25px;}
+
+    /* 2-7-21 */
+    .banner-img-block .banner-img-block-inner .hero-img1 {max-width: 100%;}
+
+    /* 23-7-21 */
+    .header-right .hiring-btn a{margin-right: 20px;}
+    .header-right .my-account{margin: 0 20px;}
+    .header-right .hiring-btn a {margin-right: 40px;}
+    .header-right .login {margin-left: 40px;}
+
+    /* 13-8-21 */
+    .account .current-subscription h5{    font-size: 20px}
+    .account .current-subscription .current-subscription-left table th, .account .current-subscription .current-subscription-left table td{padding: 15px;font-size: 14px;}
+    .account .current-subscription .current-subscription-right .add-more-box {padding: 15px;}
+    .account .current-subscription {margin-top: 70px;}
+    .fluid-content ul li{padding-bottom: 40px;}
+    .inner-page .cms-banner{padding: 80px 0;}
+    .inner-page .cms-content{padding-top: 30px;}
+    .privacy-policy.inner-page .cms-content h2{font-size: 24px;}
+}
+@media(min-width:1025px)
+{
+    .navbar-brand{flex: 1;}
+    .navbar .navbar-collapse{    flex: 5; justify-content: flex-end;}
+    .navbar-expand-lg .navbar-nav{margin-right: 25px;}
+    .navbar-expand-lg .navbar-collapse {display: -ms-flexbox!important;display: flex!important;-ms-flex-preferred-size: auto;flex-basis: auto;}
+    .navbar-expand-lg .navbar-toggler {display: none !important;}
+    .navbar-expand-lg .navbar-nav {-ms-flex-direction: row !important;flex-direction: row !important;}
+    .join-page .button-group .btn:hover{background-color:transparent ;color: #052EA6;}
+
+    /* 23-7-21 */
+    .navbar-expand-lg .navbar-nav {margin-right: 20px;}
+}
+@media(max-width:1024px)
+{
+    .faq {padding: 100px 0 90px;}
+    header .container{max-width: 100%;}
+    header nav .navbar-collapse {padding: 15px;height: calc(100% - 78px) !important;position: fixed;top: 78px;left: 0;right: 0;bottom: 0;z-index: 999;background-color: #fff;overflow-y: auto;flex-direction: column;align-items: flex-start;}
+    .navbar-nav{width: 100%;}
+    .navbar-light .navbar-nav .nav-item {margin: 0 0 20px;}
+    .header-right{justify-content: flex-start;flex: none;}
+    .header-right{flex-direction: column;width: 100%;}
+    .header-right a{width: 100%;    margin: 7px 0 !important;text-align: center;}
+    .header-right .hiring-btn ,.header-right .join a{width: 100%;}
+    .header-right .join{width: 100%;}
+
+    /* 23-7-21 */
+    header{    position: fixed;width: 100%;top: 0;z-index: 10;box-shadow: 0 -3px 10px rgb(0 0 0 / 7%);}
+    main{padding-top: 83px;}
+
+    /* 26-7-21 */
+    .banner-img-block .banner-img-block-inner .hero-img1.fadeInUp{float: left;animation: none;}
+
+    /* 13-8-21 */
+    .account .current-subscription .current-subscription-left {flex: 0 0 100%;max-width: 100%;padding-right: 0;}
+    .account .current-subscription .current-subscription-right {flex: 0 0 100%;max-width: 100%;padding-left: 0;    margin-top: 30px;}
+    .account .current-subscription .current-subscription-right .add-more-box {padding: 20px;}
+    .account .current-subscription .current-subscription-right .add-more-box ul li{display: inline-block;margin: 5px;min-width: 160px;}
+
+    .page-template-page-join1 main,
+    .page-template-page-confirm main,
+    .page-template-page-cancelmember main,
+    .page-template-page-member main,
+    .page-template-page-waitlist-php main {
+        padding-top: 0;
+    }
+    
+}
+
+@media(min-width:992px) and (max-width:1024px)
+{
+    .navbar-expand-lg .navbar-collapse.collapse:not(.show) {display: none !important;}
+}
+@media(min-width:992px)
+{
+    .navbar-expand-lg .navbar-toggler {display: block;}
+    .navbar-expand-lg .navbar-nav {-ms-flex-direction: column;flex-direction: column;}
+}
+
+@media(max-width:991px)
+{
+    
+    .hero .hero-right {padding-left: 15px;}
+    .hero .blue-btn {margin-top: 50px;}
+    h1{font-size: 36px;}
+    .inner-page h1{font-size: 38px;}
+    h2 {font-size: 28px;}
+    h3{font-size: 30px;}
+    h4{font-size: 18px;}
+    p {font-size: 15px;}
+    .contact h3{font-size: 24px;}
+    .service-main{margin-top: 60px;}
+    .how-work {padding: 0 0 30px;}
+    .service-main{margin: 50px 0;}
+    .service-main .service-block .service-block-inner p{font-size: 15px;}
+    .service h4 {margin-bottom: 25px;}
+    .fluid-content .right h4 {margin-bottom: 20px;}
+    .fluid-content .right {padding-left: 35px;}
+    .fluid-content ul li{margin-bottom: 30px;padding-bottom: 30px;}
+    .how-work .fluid-img-block{width: 100%;    position: relative; padding-right: 0;}
+    .fluid-content-outer {max-width: 100%;margin-top: 50px;}
+    .how-work-inner {margin-top: 50px;}
+    .how-work .fluid-small{bottom: 0;}
+    .catching {padding: 40px 0 80px;}
+    .catching .catching-row .catching-block {padding: 30px;}
+    .catching-block .catching-header .catching-header-left{flex:0 0 50px;height: 50px;}
+    .plan p{font-size: 17px;}
+    footer{padding-top: 80px;}
+    footer .footer-top .footer-right{padding-left: 15px;}
+    .about {padding-top: 80px;}
+    .about-img-section .fluid-content-outer{padding: 0;margin: 20px 0;}
+    .about-img-section h3 {font-size: 31px;}
+    .about-img-section .fluid-content-outer{padding: 0 15px;}
+    .about-row .about-img-section {margin-top: 180px;}
+    .about-row .about-img-section:last-child{margin-top: 100px;}
+    .faq {padding: 120px 0 90px;}
+    .faq .faq-inner .faq-content {margin-top: 70px;}
+    .faq .accordion {margin-bottom: 50px;}
+    .faq p {font-size: 18px;}
+    .contact{padding: 80px 0 100px;}
+    .contact .contact-main {margin-top: 60px;}
+    .contact .contact-right {padding-left: 50px;}
+    .account .sidebar-title ,.account .nav-pills .nav-link{padding-left: 30px;}
+    .account h6{font-size: 21px;}
+    .account .sidebar-title{margin-bottom: 50px;}
+    .account .account-right p {font-size: 14px;}
+    .account-overview table th, .account-overview table td{font-size: 16px;}
+    .account-swiper{margin: 50px 0 60px;}
+    .breadcrumb a{font-size: 16px;}
+    .join-page .join{padding: 70px;}
+
+    /* 13-8-21 */
+    .account .current-subscription {margin-top: 60px;}
+    .catching-block .catching-body p {margin-bottom: 30px;}
+    .plan .plan-left {padding: 70px 0 70px 15px;}
+    .inner-page .cms-content{padding-bottom: 90px;}
+    /* .join-page .join{border-radius: 50px 50px 0 0;} */
+    .join-page .join-content p {font-size: 22px;}
+    .join-page .join-content .form-group.referral-form {margin: 50px 0 100px;}
+
+    /* 3-9-21 */
+    .join-page .join-content .form-group.referral-form{margin: 0;}
+    .join-page .join {padding: 40px;}
+}
+@media(max-width:850px)
+{
+    .about-row .about-img-section {margin-top: 130px;}
+    .about-row .about-img-section:last-child {margin-top: 60px;}
+}
+@media(max-width:767px)
+{
+    .hero{padding: 80px 0;margin-top: 0; }
+    .hero .blue-btn {margin-top: 40px;}
+    .hero .hero-right{margin-top: 70px;position: static;width: 100%;}
+    h1 {font-size: 32px;}
+    .inner-page h1{font-size: 34px;}
+    h4{font-size: 17px;}
+    /* h2 {font-size: 26px;} */
+    .service-section {padding-top: 50px;    padding-bottom: 10px;}
+    .service h4 {margin-bottom: 20px;}
+    .how-work .title-img-outer .title-img{left: 43%;top: -30px;}
+    .how-work .title-img-outer .title-img img{width: 30px;}
+    .catching {padding: 80px 0 50px;}
+    .catching .catching-row {margin-top: 50px;}
+    .plan .plan-left,.plan .plan-right{text-align: center;}
+    .plan .plan-left{margin-bottom: 0;    padding: 50px 15px 0;}
+    .plan .plan-right{padding-bottom: 50px;}
+    .how-work {padding: 80px 0 30px;}
+    footer .footer-bottom{padding:40px 0;}
+    footer h4{margin-bottom: 20px;}
+    footer .footer-logo img{width: 80px;}
+    .slik-btn{min-width: 130px;}
+    .index-icon{font-size: 17px;}
+    .index-icon img{height: 100%;}
+    .fluid-content .right {padding-left: 25px;}
+    .about-img-section .fluid-img-block{position: relative;width: 100%;}
+    .full-img {width: 100%;}
+    .about-img-section .fluid-content-outer{max-width: 100%;    margin: 60px 0;}
+    .about-row .about-img-section {margin-top: 60px;}
+    .about-img-section .fluid-img-block .fluid-small{top: -15%;}
+    .about-img-section h3 {font-size: 24px;}
+    .about-img-section .fluid-content-outer{margin: 40px 0 60px;}
+    .faq {padding: 40px 0 70px;}
+    .faq .faq-inner .faq-content {margin-top: 60px;}
+    .faq .faq-inner .faq-content h5 {font-size: 20px;}
+    .faq .card h6 button, .faq .card .card-body {font-size: 16px;}
+    .faq .card .btn-link span{width: 15px;height: 15px;}
+    .faq .accordion {margin-bottom: 40px;}
+    .faq .card{margin-bottom: 10px;}
+    .faq .card .card-header{margin-bottom: 10px;}
+    .faq p {font-size: 17px;}
+    .contact{padding: 60px 0 80px;}
+    .contact .contact-right {padding-left: 15px;}
+    .contact .contact-left {padding-left: 15px;margin-bottom: 40px;}
+    .contact h3{font-size: 22px;}
+    .contact form{margin-top: 30px;}
+    .contact .contact-main p{max-width: 100%;}
+    .account-main{flex-direction: column;}
+    .account .account-sidebar,.account .account-right{flex: 0 0 100%;max-width: 100%;}
+    .account .account-right{padding-left: 15px;padding-right: 15px;}
+    .account .account-sidebar{padding:40px 0;}
+    .account .sidebar-title {margin-bottom: 30px;padding-left: 15px;}
+    .account .nav-pills .nav-link{padding: 20px 15px;}
+    .join-page .join {padding: 60px 40px;}
+    .join-page .join-logo {margin-bottom: 50px;}    
+    .join-head {margin-bottom: 50px;}
+    .join-page .join-content p{font-size: 20px;}
+    .join-page .join-content .button-group {margin-top: 40px;}
+    .join-page .join-content .form-group {margin-bottom: 18px;}
+
+    /* 23-7-21 */
+    footer h4.text-center{text-align: left !important}
+    footer .footer-top .social-icon{    justify-content: flex-start;}
+    footer .footer-top .social-icon li:first-child{margin-left: 0;}
+    
+    /* 13-8-21 */
+    .rounded-box p{font-size: 15px;}
+    .plan:before{width: 90%;}
+    .service-main {margin: 30px 0 0;}
+    .catching-block .catching-header .catching-header-right h5{font-size: 17px;}
+    .catching .catching-row .catching-block {padding: 20px 0;}
+    .service-main .service-block .service-block-inner{padding:30px 0}
+    .inner-page .cms-banner {padding: 60px 0;}
+    .inner-page .cms-content{padding-top: 0;}
+    .inner-page .cms-content {padding-bottom: 70px;}
+    .join-page{padding-bottom: 60px;}
+    .page-template-page-member .join-page,.page-template-page-cancelmember .join-page{padding-top: 60px;}
+    .join-page .join-content.confirm p{font-size: 22px;}
+    .join-page .join-content.confirm span{font-size: 15px;}
+    .join-page .join-content .form-group.referral-form {margin: 30px 0 70px;}
+
+    /* 1-9-21 */
+    #cancelpayment .rounded-box{    padding-top: 100px;padding-bottom: 70px;}
+    #cancelpayment .rounded-box .modal-content .popup-payment-content .button-group{margin-top: 150px !important;}
+
+    /* 3-9-21 */
+    .join-page .join {padding: 35px;}
+    .join-page .join-logo {margin-bottom: 30px;}
+    .join-page .join-content .form-group.referral-form {margin: 0;}
+    .act-plan .white-btn{min-width: 148px;height: 45px;line-height: 35px;font-size: 18px;}
+}
+
+@media(max-width:620px)
+{
+    .hero-title .title-img {top: -38px;left: -14px;}
+    .hero-title .title-img img{width: 40px;}
+    .account-swiper:after{background-size: 80px;width: 80px;}
+}
+@media(max-width:575px)
+{
+    h1 {font-size: 28px;}
+    .inner-page h1{font-size: 30px;}
+    h2 {font-size: 24px;}
+    .service-section {padding-top: 50px;}
+    .service-main{margin-top: 30px;}
+    .service-main .service-block{margin-bottom: 20px;}
+    .catching .catching-row {margin-top: 40px;}
+    .catching{padding: 50px 0;}
+    .catching-block-outer{margin-bottom: 20px;}
+
+    footer{padding-top: 50px;}
+    footer .footer-top .footer-left{margin-bottom: 35px;}
+    .footer-bottom-inner .footer-bottom-left{margin-bottom: 20px;}
+    .footer-bottom-inner .footer-bottom-left p{text-align: center;}
+    .footer-bottom-inner .footer-bottom-right ul{justify-content: center;}
+    .footer-bottom-inner .footer-bottom-right ul li {margin: 0 20px;}
+    footer .footer-bottom{padding:20px 0;}
+    footer .footer-top {padding-bottom: 30px;}
+    .about {padding-top: 60px;}
+    .about-img-section h3 {font-size: 24px;}
+    .about-img-section {margin-top: 120px;}
+    .faq {padding: 40px 0 60px;}
+    .join-page .join{padding-left: 20px;padding-right: 20px;}
+    .join-page .join-content p {font-size: 18px;}
+    .join-page .nav-pills li .nav-link{padding: 10px;font-size: 14px;}
+    .subscription-plan-inner{margin: 0 auto 30px;}
+    .payment .payment-inner .custom-radio{margin-bottom: 15px;}
+
+    /* 13-7-21 */
+    .payment .payment-inner .row .col-sm-6{padding: 0;}
+
+    /* 28-7-21 */
+    .payment .payment-inner .row .left,
+    .payment .payment-inner .row .right{width: 100%;margin: 0;}
+
+    /* 13-8-21 */
+    .account .current-subscription .current-subscription-left table {width: 545px;}
+    .rounded-box{padding: 50px 20px 50px;border-radius: 30px 30px 0 0;border: 2px solid #052EA6;}
+    .rounded-box p {font-size: 14px;}
+    #addmore.modal{padding: 0 !important;}
+    .hero {padding: 50px 0;}
+    .how-work {padding: 50px 0;}
+    .plan:before{width: 100%;}
+    .service-main .service-block .service-block-inner{padding:20px 0}
+    .privacy-policy.inner-page .cms-content h2{font-size: 22px;}
+
+    /* 1-9-21 */
+    #cancelpayment .rounded-box{padding-top: 50px;padding-bottom: 50px;}
+    #cancelpayment .rounded-box .modal-content .popup-payment-content .button-group{margin-top: 100px !important;}
+}
+@media(max-width:480px)
+{
+    .header-right a.login{margin-bottom: 0 !important;}
+    .header-right .dropdown-content a{margin: 0 !important;}
+    .banner-img-block .banner-img-block-inner:after {height: 30px;width: 30px;left: -20px;}
+    .how-work .title-img-outer .title-img {left: 40%;}
+    .about-img-section {margin-top: 90px;}
+    .account-overview table{width: 480px;}
+    .account-swiper:after{display: none;}
+    .join-page .join-content .button-group{flex-direction: column;}
+    .join-page .button-group .btn{width: 100%;    margin: 0 0 15px !important;}
+    /* .join-page .button-group .btn:last-child{margin-bottom: 0;} */
+    .privacy-policy.inner-page .cms-content h2{line-height: 1.2;}
+}
+@media(max-width:380px)
+{
+    .account .current-subscription .current-subscription-right .add-more-box ul li{display: block;margin: 0 0 10px;}
+    #user-registration.user-registration input.button{float: none;width: 100%;}
+	.user-registration-form__label{width: 100% !important;}
+	#user-registration p.lost_password{margin-top: 0;}
+	#user-registration p.lost_password{text-align: center;}
+	.user-registration-form__label{justify-content: center;}
+	#user-registration p.lost_password a{font-size: 14px;}
+
+	/* 13-7-21 */
+	.user-registration-form__label{text-align: center !important;}
+}

@@ -1,0 +1,331 @@
+<h2 id="item-description__about-the-woocommerce-tax-toggle"><strong>The easiest
+		way to toggle tax in WooCommerce!</strong></h2>
+
+<p><strong>Tax Toggle for WooCommerce</strong> extension plugin allows you to easily toggle between the taxed price and the untaxed price (i.e. show prices with and without tax in WooCommerce).</p>
+<p>Tax Toggle for WooCommerce allows the customer to select whether they want to view your WooCommerce products price including tax or excluding tax. The option chosen is saved to the users device so when the customer moves from page to page the prices are shown as per their selection.</p>
+<p>The toggle is automatically added as a floating button on the left hand side of the site, but the toggle button can also be added as a Widget in a sidebar or it can be added anywhere (including in Gutenberg blocks or your theme) with shortcode [wootax].</p>
+<p>For a better user experience, the WooCommerce Cart and Checkout behaviour are different from other pages. On the Cart page, the tax toggle shows/hides the tax and total order in the order summary. It does not toggle the individual items as this could be confusing for the customer.</p>
+<p>On the Checkout the toggle is hidden because the tax is displayed as per the checkout rules. e.g. by what location is selected in the address.</p>
+<p>The Tax Toggle uses the base country tax settings as per the WooCommerce tax settings section.</p>
+
+<p><strong>The plugin works and has been tested with the latest version of WordPress and WooCommerce</strong>. It works with the Classic Editor or Gutenberg Block Editor and works with WooCommerce Gutenberg Blocks. It has been tested with around 50 different themes, including the popular Storefront Theme for WooCommerce. It works with page builders like Elementor and Oxygen. If your theme is compatible with WooCommerce, then this plugin should work with it.</p>
+
+<p>Key features roundup:</p>
+<ul>
+	<li><strong>Simple</strong> - install and let your customers toggle on/off
+		tax values!</li>
+	<li><strong>Displays by default as floating toggle button</strong></li>
+	<li><strong>Toggle button can be inserted anywhere</strong> with shortcode,
+		PHP code or using Widget</li>
+	<li><strong>Text can be changed as needed</strong> - Tax, VAT, BTW - call it
+		whatever you want</li>
+	<li><strong>No refresh</strong> - Does not refresh the page. Uses PHP and JavaScript to toggle the tax without refreshing the page for the user.</li>
+	<li><strong>Set a default to automatically activate the toggle for new
+			visitors</strong></li>
+	<li><strong>Easy to style with CSS</strong> as you want to suit your theme
+	</li>
+	<li><strong>Works with WooCommerce Product variations; works with
+			Sale/Discounted items</strong></li>
+	<li><strong>Compatible with Gutenberg, WooCommerce Blocks, Storefront and
+			many popular WordPress themes and plugins</strong></li>
+	<li><strong>Very quick and lightweight code</strong> - doesn't affect
+		performance of your site</li>
+</ul>
+
+<h3 id="item-description__instructions-for-install">Instructions for Install
+</h3>
+
+<p>Download the plugin zip file.</p>
+<p>Go to WordPress Admin > Plugins > Add New Plugin > Upload Plugin, and upload the plugin zip file.</p>
+<p>There are other ways to install the plugin, please see the WordPress documentation here (http://codex.wordpress.org/Managing_Plugins).</p>
+<p>Once, installed, Activate the plugin. Tax Toggle will automatically display on the site.</p>
+
+<p>For the plugin to work properly, you need to add some tax information to your WooCommerce settings:</p>
+
+
+	<p><strong>1) Tax Rates and Calculations must be switched on</strong>
+		<br>WP Admin > WooCommerce > Settings > General "Enable tax rates and
+		calculations"
+	</p>
+	<p><strong>2) Tax Rate must be set</strong>
+		<br>WP Admin > WooCommerce > Settings > Tax > Standard Rates + Insert
+		Row with your Tax info
+	</p>
+	<p><strong>3) Individual Product must be marked as Taxable</strong>
+		<br>WP Admin > Products > Product > Product Data > Tax Status > Product
+		should be "Taxable"
+	</p>
+	<p><strong>4) Set your default customer location (this is how the tax is
+			worked out if user is not logged in)</strong>
+		<br>WP Admin > WooCommerce > Settings > General > Default customer
+		location should be "Shop base address" and your shop base address should
+		be
+		filled in
+	</p>
+	<p><strong>5) Optional: Calculate tax based on "Shop Base Address" (Unless you
+			make all your customers register with their address before browsing
+			or your tax system is not based on your store location)</strong>
+		<br>WP Admin > WooCommerce > Settings > Tax > Calculate tax based on
+		"Shop Base Address"
+	</p>
+
+
+<h3 id="item-description__requirements">Requirements</h3>
+
+<p>The plugin requires WooCommerce and WordPress to be installed.</p>
+
+<p>You will also need to have your tax rates set in WooCommerce settings.</p>
+
+<p>The plugin is compatible with Classic Editor, Gutenberg/Block Editor, and Elementor and other page builders using WooCommerce product display.</p>
+
+<h3 id="item-description__using-shortcode">Using the Shortcode</h3>
+
+<p>You can use the shortcode <code>[wootax]</code> to insert the Toggle button anywhere you want in your theme.</p>
+
+<h3 id="item-description__using-widget">Using the Widget</h3>
+
+<p>The Tax Toggle widgets can be added by going to Appearances > Widgets. You will find the tax toggle listed here as Tax Toggle. Drag this in to a Widget area and it will appear where you want it.</p>
+
+<h3 id="item-description__using-php">Using PHP</h3>
+
+<p>If you want to include the widget in your theme, use this for PHP insertion: <code><?php echo woo_tax_output(); ?></code> or <code><?php echo do_shortcode('[wootax]'); ?></code></p>
+
+<h3 id="item-description__plugin-settings">Tax Toggle Plugin Settings</h3>
+
+<p>Settings for the plugin are added to WP Admin > WooCommerce > Settings > Tax > Tax Options</p>
+
+<p>Available settings are:</p>
+
+<ul>
+	<li>Floating Tax Toggle - Controls the visibility of the floating tax
+		toggle.</li>
+	<li>Tax Button Text - Controls the language for the button text.</li>
+	<li>Tax Text - Controls the language for the name of the tax.</li>
+	<li>Default Toggle Status - Controls whether the toggle is activated on
+		first load for guest.</li>
+	<li>Restrict Tax Toggle to Shop pages - Hide the toggle on pages where you
+		have no shop items.</li>
+	<li>Theme Override - Experimental. If your theme shows double pricing in
+		some places, this may help fix it.</li>
+</ul>
+
+<h3 id="item-description__faq">FAQ</h3>
+
+<p><strong>Q: I'm not seeing any changes</strong></p>
+<p>A: Please double check your tax settings and your product settings to check you have the taxed and unataxed amounts correctly setup. By default WooCommerce does not include a tax rate amount. This needs to be setup in WooCommerce > Settings > Tax</p>
+
+<p><strong>Q: Can I translate the text?</strong></p>
+<p>A: The plugin is set up for the strings to be translated by popular programs such as WPML and Polylang. If you want to translate the strings for just one language, <a href="https://gist.github.com/thetwopct/6b6935c213b0d5b85b8e8ea9dcf6ac12" target="_blank">here is a code snippet to add to your functions.php file</a>.</p>
+
+<p><strong>Q: Does this work with my theme? The plugin doesn't display correctly with my X theme</strong></p>
+<p>A: Every theme is different, but if the theme is properly coded using WooCommerce coding standards then this plugin should work. If the plugin does not work out of the box, we provide a Theme Override setting to help make it compatible with themes that do things in a strange way, and we can provide assistance with any other themes using either PHP in your theme/child theme or JavaScript.</p>
+
+<p><strong>Q: I need more help with Tax Toggle</strong></p>
+<p>A: There is a <a href="https://desk.thetwopercent.co.uk/knowledgebase.php?category=2" target="_blank">knowledgebase of common issues for Tax Toggle at our website</a>, there are <a href="https://codecanyon.net/item/woocommerce-tax-toggle/7796887/comments">various comments and answers</a> from users here on CodeCanyon, and you can open also a personal <a href="https://desk.thetwopercent.co.uk/index.php?a=add&category=2" target="_blank">support ticket</a> with me for direct help. I want Tax Toggle to work for you, so please open a support ticket with me before declaring the plugins "doesn't work" as the plugin is in use on 10,000+ websites, on websites selling thousands of products per day. It works! But depending on the quality of your theme or the pluings you have, it sometimes needs help.</p>
+
+<p><strong>Q: Are you actively working on Tax Toggle?</strong></p>
+<p>A: Yes. I am a WordPress developer and develop in WordPress everyday. I have set out a <a href="https://desk.thetwopercent.co.uk/knowledgebase.php?article=12" target="_blank">roadmap for Tax Toggle</a> and if you want to give any feedback to me, I can sometimes implement feedback within a few hours.</p>
+
+<h2 id="item-description__change-log">Change Log</h2>
+
+<p>Version 1.3.4 (2021-10-19)</p>
+<ul>
+	<li>Updated markup to reflect changes in WooCommerce default</li>
+	<li>New class .wootax-suffix to target the inc/exc tax text</li>
+	<li>Improved detection and display of no tax products</li>
+	<li>Tested with WordPress 5.8.1 and WooCommerce 5.8</li>
+</ul>
+
+<p>Version 1.3.3 (2021-07-18)</p>
+<ul>
+	<li>Added new option to only show floating toggle on shop pages</li>
+	<li>Fix PHP error related to mini cart</li>
+	<li>Tested with WordPress 5.8 and WooCommerce 5.5</li>
+</ul>
+
+<p>Version 1.3.2 (2021-05-18)</p>
+<ul>
+	<li>Fix minicart always showing including price</li>
+	<li>Minor documentation updates</li>
+	<li>Update changelog year for 2021 updates</li>
+</ul>
+
+<p>Version 1.3.1 (2021-05-13)</p>
+<ul>
+	<li>Allowed for Zero Rated items to not display incl/excl tax text.</li>
+	<li>Minor documentation updates</li>
+	<li>Primary readme is now HTML file</li>
+</ul>
+
+<p>Version 1.3 (2021-05-13)</p>
+<ul>
+	<li>Various bug fixes</li>
+	<li>PHP updates</li>
+	<li>jQuery 3.0+ updates</li>
+	<li>Compatible with Storefront Theme</li>
+	<li>Compatible with WooCommerce Gutenberg Blocks</li>
+	<li>Dropped reliance on FontAwesome for active toggle, now using SVG</li>
+	<li>Added small animation on toggle change</li>
+	<li>Experimental option to make more compatible with some themes</li>
+	<li>Added default status option</li>
+	<li>Improved documentation</li>
+	<li>Added admin notices if WooCommerce or Tax not enabled</li>
+</ul>
+
+<p>Version 1.2.9 (2020-01-01)</p>
+<ul>
+	<li>Gutenberg compatibility improvements</li>
+</ul>
+
+<p>Version 1.2.4 (2017-11-01)</p>
+<ul>
+	<li>Adjust cart tax display to fix itemised only showing</li>
+	<li>Adjust get_price function to replace depreciated WC functions</li>
+</ul>
+<p>Version 1.2.3 (2017-07-17)</p>
+
+<ul>
+	<li>Debug fix</li>
+</ul>
+<p>Version 1.2.2 (2017-07-17)</p>
+
+<ul>
+	<li>Cookie fix</li>
+</ul>
+<p>Version 1.2.1 (2017-07-17)</p>
+
+<ul>
+	<li>PHP Loader added</li>
+	<li>Shortcode added</li>
+</ul>
+<p>Version 1.2.0 (2017-06-05)</p>
+
+<ul>
+	<li>Rewrite of file structure</li>
+	<li>Compatibility with WC 3.0 hook changes / discontinued hooks</li>
+	<li>Rebuilt the variable product from: function</li>
+</ul>
+<p>Version 1.1.4 (2017-04-11)</p>
+
+<ul>
+	<li>Bug fixed when simple product but no tax</li>
+</ul>
+<p>Version 1.1.3 (2017-04-11)</p>
+
+<ul>
+	<li>Future compatibility with new product calling methods</li>
+	<li>https://github.com/woocommerce/woocommerce/wiki/CRUD-Objects-in-3.0</li>
+	<li>https://docs.woocommerce.com/wc-apidocs/class-WC_Product.html</li>
+	<li>Fix notices on wp_debug_display</li>
+</ul>
+
+<p>Version 1.1.2 (2017-04-05)</p>
+
+<ul>
+	<li>Change the cookie method to work with WC 3.0</li>
+	<li>Cleaned some JS</li>
+</ul>
+
+<p>Version 1.1.1 (2017-01-20)</p>
+<ul>
+	<li>Add translation example code function</li>
+	<li>Add more translations</li>
+	<li>Support variable decimal point positions</li>
+	<li>Support Currency Positions</li>
+	<li>Support various separator types</li>
+</ul>
+
+<p>Version 1.1.0 (2017-01-04)</p>
+<ul>
+	<li>Made all strings translatable</li>
+	<li>Tidied code</li>
+	<li>Add span class to quantity to increase compatibility with dropdown carts
+		on certain themes using JS to count QTY</li>
+	<li>fix https issue on some sites</li>
+</ul>
+
+<p>Version 1.0.15 (2016-11-08)</p>
+<ul>
+	<li>Fix right to left currency symbol on variable product</li>
+</ul>
+
+<p>Version 1.0.14 (2016-05-19)</p>
+<ul>
+	<li>Adds Currency Symbol to mini-cart / Fix</li>
+</ul>
+
+<p>Version 1.0.13 (2016-05-18)</p>
+<ul>
+	<li>Fix to work with latest mini-cart</li>
+</ul>
+
+<p>Version 1.0.12 (2016-05-09)</p>
+<ul>
+	<li>Update for new WP - Fixes Variation non-sale being £0</li>
+</ul>
+
+<p>Version 1.0.11 (2016-01-31)</p>
+<ul>
+	<li>Regular / Sale Fix</li>
+	<li>Sale on variation update</li>
+	<li>Widget text as per settings</li>
+</ul>
+
+<p>Version 1.0.10 (2015-12-22)</p>
+<ul>
+	<li>Rounds numbers as per the WC settings</li>
+	<li>Doesn't display the toggle for non-tax items</li>
+	<li>Shows both regular and sale price (with line-through)</li>
+	<li>fix notice for $wootext</li>
+</ul>
+
+<p>Version 1.0.9 (2015-09-17)</p>
+<ul>
+	<li>Displays correctly for custom decimal points set in Settings</li>
+</ul>
+
+<p>Version 1.0.8 (2015-09-14)</p>
+<ul>
+	<li>Updated Currency Position for right sided currencies</li>
+</ul>
+<p>Version 1.0.7</p>
+
+<ul>
+	<li>Customise the Toggle Button text in the settings. Default will be
+		Includes + TAXTEXT</li>
+	<li>Set's default setting of tax included or excluded based on WooCommerce
+		settings</li>
+</ul>
+<p>Version 1.0.6</p>
+
+<ul>
+	<li>Fixed currency bug with sidebar cart.</li>
+</ul>
+<p>Version 1.0.5</p>
+
+<ul>
+	<li>Compatible with WP 4, WC 2.2 and fix jQuery VAT addition on non-UK sites
+	</li>
+</ul>
+<p>Version 1.0.4</p>
+
+<ul>
+	<li>Added From: to prepend to Grouped and Variable products so it indicates
+		a range</li>
+</ul>
+<p>Version 1.0.3</p>
+
+<ul>
+	<li>Added ability to edit the VAT text in WooCommerce &gt; Settings</li>
+</ul>
+<p>Version 1.0.2</p>
+
+<ul>
+	<li>Fixed no appearance on some themes</li>
+	<li>Geographic beta work started</li>
+</ul>
+<p>Version 1.0.1</p>
+
+<ul>
+	<li>Small change to rename as Tax Toggle and not VAT Toggle</li>
+</ul>

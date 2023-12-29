@@ -1,0 +1,60 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213.11 185.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #232f5d;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #232f5d;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-width: 7px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-width: 7.29px;
+      }
+
+      .cls-4 {
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g>
+        <g>
+          <path class="cls-1" d="M161.2,160.4H145.1a5.19,5.19,0,0,1-5.1-5.1V137.2a5,5,0,0,1,5.1-5h16.1a5.1,5.1,0,0,1,5.1,5v18.1a5.06,5.06,0,0,1-5.1,5.1Zm-15.6-5.5h15.1v-17H145.6Z" transform="translate(0.51 -2.2)"/>
+          <path class="cls-1" d="M161.2,114.6H145a5.12,5.12,0,0,1-5.1-5.1V91.4a5,5,0,0,1,5.1-5h16.2a5.1,5.1,0,0,1,5.1,5v18.1A5.12,5.12,0,0,1,161.2,114.6ZM145.6,109h15.1V92H145.6Z" transform="translate(0.51 -2.2)"/>
+          <path class="cls-1" d="M69.1,114.6H52.9a5.1,5.1,0,0,1-5.1-5V91.5a5.12,5.12,0,0,1,5.1-5.1H69.1a5.12,5.12,0,0,1,5.1,5.1v18.1A5.17,5.17,0,0,1,69.1,114.6ZM53.5,109H68.6V92H53.5Z" transform="translate(0.51 -2.2)"/>
+          <path class="cls-1" d="M69.1,160.4H52.9a5,5,0,0,1-5-5V137.2a5,5,0,0,1,5-5H69.1a5.1,5.1,0,0,1,5.1,5v18.1a5.12,5.12,0,0,1-5.1,5.1Zm-15.6-5.5H68.6v-17H53.5Z" transform="translate(0.51 -2.2)"/>
+        </g>
+        <path class="cls-1" d="M209.4,187.6h0L2.6,187.2a2.81,2.81,0,0,1,0-5.6h0l206.9.4a2.81,2.81,0,0,1,2.6,3A2.89,2.89,0,0,1,209.4,187.6Z" transform="translate(0.51 -2.2)"/>
+      </g>
+    </g>
+  </g>
+  <path class="cls-1" d="M114,114.6H97.9a5.1,5.1,0,0,1-5.1-5V91.5a5.12,5.12,0,0,1,5.1-5.1H114a5,5,0,0,1,5,5.1v18.1A5,5,0,0,1,114,114.6ZM98.4,109h15.1V92H98.4Z" transform="translate(0.51 -2.2)"/>
+  <g>
+    <line class="cls-2" x1="18.81" y1="71.4" x2="106.51" y2="3.7"/>
+    <line class="cls-2" x1="194.61" y1="71.2" x2="107.01" y2="3.5"/>
+  </g>
+  <polyline class="cls-3" points="94.11 180.8 94.11 132.2 122.61 132.2 122.61 180.8"/>
+  <line class="cls-4" x1="27.61" y1="64.7" x2="27.61" y2="182.4"/>
+  <line class="cls-4" x1="185.31" y1="62.8" x2="185.31" y2="183.9"/>
+  <polyline class="cls-4" points="43.33 49.83 43.33 15.82 61.51 15.82 61.51 38.44"/>
+</svg>
